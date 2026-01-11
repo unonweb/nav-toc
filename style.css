@@ -1,0 +1,30 @@
+@layer default {
+    ce-toc {
+        display: block;
+    }
+
+    ce-toc li {
+        padding-top: 5px;
+    }
+}
+@layer attributes {
+
+    ce-toc[dropdown="maybe"] > drop-down {
+        display: flex;
+        flex-direction: column;
+    }
+
+    ce-toc[dropdown="maybe"] > .content {
+        display: none;
+    }
+
+    @media (min-width: 1024px) {
+        ce-toc[dropdown="maybe"] > drop-down {
+            display: none;
+        }
+
+        ce-toc[dropdown="maybe"] > .content {
+            display: block;
+        }
+    }
+}
