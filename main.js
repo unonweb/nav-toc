@@ -1,3 +1,3 @@
-import NavToc from './NavToc';
+import NavToc from './NavToc.js';
 
 window.customElements.define('nav-toc', NavToc);

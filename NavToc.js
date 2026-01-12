@@ -1,4 +1,4 @@
-import Sticky from '../_classes/Sticky.js'
+import Sticky from '../../commons/sticky/Sticky.js'
 
 export default class NavToc extends HTMLElement {
 	/*
